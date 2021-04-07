@@ -1,11 +1,4 @@
-import '../../App.css';
-import SignIn from '../../features/SignIn';
 
-function App() {
-  return (
-    <div className="App">
-      <SignIn />
-    </div>
   );
 }
 
