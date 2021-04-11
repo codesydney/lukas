@@ -1,0 +1,149 @@
+/* Contact Form */
+.header.page {
+  box-shadow: 0 2px 8px 0 black, 0 6px 20px 0 grey;
+}
+.content-contact-details {
+  padding: 2rem;
+  height: 25vh;
+}
+
+.contact-details-box {
+  border: 2px solid cadetblue;  
+  height: 100%;
+}
+
+span#mobile-number,
+span.contact-details,
+span#email {
+  padding-left: 5%;
+}
+
+span.contact-details { padding-top: 5%; }
+span#mobile-number, 
+span#email   { 
+  padding-top: 1%; 
+}
+
+span#mobile-number,
+span#email {
+  font-size: 20px;
+  padding-bottom: 3%;
+  font-weight: bolder;
+}
+
+span.contact-details {
+  display: block;
+}
+
+img.img-responsive {
+  width: 100%;
+}
+
+.content-flex-left, .content-flex-right {
+  margin: 1%;
+}
+
+.wrapper {
+  margin: 10% auto;
+}
+
+.wrapper > .title {
+  margin: inherit;
+  width: 55%;
+  padding: 3%;
+  border-bottom: 2px solid cadetblue;
+}
+
+form {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+div#form-title > h4 {
+  width: 25% !important;
+  margin-top: 5% !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-left, .content-flex-left,
+.flex-right, .content-flex-right {
+  width: 50%;
+}
+
+.flex-right {
+  background-color: turquoise;
+  box-shadow: 0 4px 8px 0 cadetblue, 0 6px 20px 0 deepskyblue;
+}
+
+.flex-left {
+  background-color: lightblue;
+  box-shadow: 0 4px 8px 0 cadetblue, 0 6px 20px 0 deepskyblue;
+}
+
+.flex-right {
+  width: 50%;
+  background-color: turquoise;
+  box-shadow: 0 4px 8px 0 cadetblue, 0 6px 20px 0 deepskyblue;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl.MuiInputBase-multiline.MuiOutlinedInput-multiline {
+  height: 20vh;
+  width: 34.7vw;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.makeStyles-button-2.MuiButton-containedPrimary {
+  width: 8vw;
+  height: 7vh;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary {
+  margin-left: 1.5%;
+}
+
+.MuiOutlinedInput-input {
+  font-size: 15px !important;
+}
+
+.MuiButton-label {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 1.5rem;
+}
+
+/* Mobile First */
+@media only screen and (max-width: 360px) {
+  form {
+    margin-top: 10%;
+    margin-left: 3%;
+    width: 88%;
+  }
+
+  .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl.MuiInputBase-multiline.MuiOutlinedInput-multiline {
+    height: 20vh;
+    width: 88vw;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-left {
+    width: 100%;
+    background-color: lightblue;
+    box-shadow: 0 4px 8px 0 cadetblue, 0 6px 20px 0 deepskyblue;
+  }
+
+  .flex-right {
+    width: 100%;
+    background-color: turquoise;
+    box-shadow: 0 4px 8px 0 cadetblue, 0 6px 20px 0 deepskyblue;
+  }
+}

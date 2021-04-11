@@ -3,7 +3,7 @@ import "../../app/css/libre.css";
 
 function NavBar() {
   return (
-    <React.Fragment className="App" maxWidth="lg">
+    <React.Fragment className="NavBar" maxWidth="lg">
       <nav className="navbar navbar-libre navbar-absolute-top">
         <div className="container">
           <div className="navbar-header">
@@ -26,6 +26,9 @@ function NavBar() {
           </div>
           <div id="navbar" className="collapse navbar-collapse">
             <ul className="nav navbar-nav navbar-right">
+              <li >
+                <a href="#">Home</a>
+              </li>
               <li className="dropdown">
                 <a
                   href="#"
@@ -37,7 +40,7 @@ function NavBar() {
                 >
                   Research <span className="caret"></span>
                 </a>
-                <ul className="dropdown-menu">
+                <ul className="dropdown-menu active">
                   <li>
                     <a href="home-travel.html">Media Appearance</a>
                   </li>
@@ -47,9 +50,7 @@ function NavBar() {
                   <li className="divider"></li>
                 </ul>
               </li>
-              <li className="active">
-                <a href="page-about.html">About</a>
-              </li>
+
               <li className="dropdown">
                 <a
                   href="#"
@@ -61,7 +62,6 @@ function NavBar() {
                 >
                   Blogs
                 </a>
-                
               </li>
               <li className="dropdown">
                 <a
@@ -80,14 +80,13 @@ function NavBar() {
                   </li>
                 </ul>
               </li>
-              <li>
-                <a href="page-contact.html">Contact us</a>
+              <li className="active">
+                <a href="page-contact.html">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      
     </React.Fragment>
   );
 }
