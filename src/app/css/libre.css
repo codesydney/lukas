@@ -744,7 +744,7 @@ fieldset[disabled] .navbar-libre .btn-link:focus {
 }
 
 .header.page {
-  height: 50%;
+  height: 50vh;
 }
 
 .header.post {
