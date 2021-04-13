@@ -1,5 +1,6 @@
 import React from "react";
 import Form from "../../app/common/Form";
+import Footer from "../nav/Footer";
 import "../../app/css/libre.css";
 import "../../app/css/contact.css";
 
@@ -71,7 +72,7 @@ function Contact() {
           />
         </div>
       </div>
-      <div>footer</div>
+      <Footer />
     </React.Fragment>
   );
 }

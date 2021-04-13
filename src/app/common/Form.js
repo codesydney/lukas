@@ -44,7 +44,7 @@ function Form() {
       <div className="field">
         <TextField
           id="outlined-textarea"
-          label="Multiline Placeholder"
+          label="Message"
           placeholder="Placeholder"
           multiline
           rows={5}
