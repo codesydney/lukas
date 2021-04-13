@@ -3,8 +3,8 @@ import "../../app/css/libre.css";
 
 function NavBar() {
   return (
-    <React.Fragment className="NavBar" maxWidth="lg">
-      <nav className="navbar navbar-libre navbar-absolute-top">
+    <React.Fragment >
+      <nav maxWidth="lg" className="navbar navbar-libre navbar-absolute-top">
         <div className="container">
           <div className="navbar-header">
             <button
@@ -20,7 +20,7 @@ function NavBar() {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href="index.html">
+            <a className="navbar-brand" href="#">
               <i className="ion ion-aperture spin-on-hover"></i>
             </a>
           </div>
@@ -29,60 +29,15 @@ function NavBar() {
               <li >
                 <a href="#">Home</a>
               </li>
-              <li className="dropdown">
-                <a
-                  href="#"
-                  className="dropdown-toggle"
-                  data-toggle="dropdown"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Research <span className="caret"></span>
-                </a>
-                <ul className="dropdown-menu active">
-                  <li>
-                    <a href="home-travel.html">Media Appearance</a>
-                  </li>
-                  <li>
-                    <a href="home-space.html">Podcast</a>
-                  </li>
-                  <li className="divider"></li>
-                </ul>
+
+              <li >
+                <a href="#">About</a>
+              </li>
+              
+              <li className="active">
+                <a href="#">Contact</a>
               </li>
 
-              <li className="dropdown">
-                <a
-                  href="#"
-                  className="dropdown-toggle"
-                  data-toggle="dropdown"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Blogs
-                </a>
-              </li>
-              <li className="dropdown">
-                <a
-                  href="#"
-                  className="dropdown-toggle"
-                  data-toggle="dropdown"
-                  role="button"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Docs <span className="caret"></span>
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a href="doc-typography.html">CV</a>
-                  </li>
-                </ul>
-              </li>
-              <li className="active">
-                <a href="page-contact.html">Contact</a>
-              </li>
             </ul>
           </div>
         </div>

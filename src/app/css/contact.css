@@ -1,6 +1,7 @@
 /* Contact Form */
 .header.page {
   box-shadow: 0 2px 8px 0 black, 0 6px 20px 0 grey;
+  filter: grayscale(100%);
 }
 .content-contact-details {
   padding: 2rem;
@@ -8,7 +9,7 @@
 }
 
 .contact-details-box {
-  border: 2px solid cadetblue;  
+  border: 2px solid cadetblue;
   height: 100%;
 }
 
@@ -18,10 +19,12 @@ span#email {
   padding-left: 5%;
 }
 
-span.contact-details { padding-top: 5%; }
-span#mobile-number, 
-span#email   { 
-  padding-top: 1%; 
+span.contact-details {
+  padding-top: 5%;
+}
+span#mobile-number,
+span#email {
+  padding-top: 1%;
 }
 
 span#mobile-number,
@@ -39,7 +42,8 @@ img.img-responsive {
   width: 100%;
 }
 
-.content-flex-left, .content-flex-right {
+.content-flex-left,
+.content-flex-right {
   margin: 1%;
 }
 
@@ -61,12 +65,32 @@ form {
   width: 70%;
 }
 
+label#outlined-textarea-label {
+  padding: 2%;
+}
+
+textarea#outlined-textarea {
+  height: 14vh;
+  color: white;
+}
+
+.MuiInputBase-inputMultiline {
+  padding: 1% !important;
+}
+
 div#form-title > h4 {
   width: 25% !important;
   margin-top: 5% !important;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2%;
+  color: white;
+}
+
+input#name,
+input#email,
+.MuiOutlinedInput-inputMultiline {
+  color: white;
 }
 
 .flex-container {
@@ -74,25 +98,19 @@ div#form-title > h4 {
   flex-direction: row;
 }
 
-.flex-left, .content-flex-left,
-.flex-right, .content-flex-right {
+.flex-left,
+.content-flex-left,
+.flex-right,
+.content-flex-right {
   width: 50%;
-}
-
-.flex-right {
-  background-color: turquoise;
-  box-shadow: 0 4px 8px 0 cadetblue, 0 6px 20px 0 deepskyblue;
 }
 
 .flex-left {
-  background-color: lightblue;
-  box-shadow: 0 4px 8px 0 cadetblue, 0 6px 20px 0 deepskyblue;
+  background-color: #60758c;
 }
 
-.flex-right {
-  width: 50%;
-  background-color: turquoise;
-  box-shadow: 0 4px 8px 0 cadetblue, 0 6px 20px 0 deepskyblue;
+img {
+  filter: grayscale(100%);
 }
 
 .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl.MuiInputBase-multiline.MuiOutlinedInput-multiline {
@@ -122,8 +140,32 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
 @media only screen and (max-width: 360px) {
   form {
     margin-top: 10%;
-    margin-left: 3%;
+    margin-left: auto;
+    margin-right: auto;
     width: 88%;
+    margin-bottom: 10%;
+  }
+
+  .makeStyles-root-1 .MuiTextField-root {
+    margin: 1%;
+  }
+
+  .content-flex-left,
+  .content-flex-right {
+    width: 100%;
+  }
+
+  .wrapper > .title {
+    width: 75%;
+  }
+
+  div#form-title > h4 {
+    width: 55% !important;
+    margin-top: 7% !important;
+  }
+
+  h2 {
+    font-size: 27px;
   }
 
   .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl.MuiInputBase-multiline.MuiOutlinedInput-multiline {
