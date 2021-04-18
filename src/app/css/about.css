@@ -1,0 +1,69 @@
+img#lukas {
+  filter: grayscale(100%);
+  width: 200px !important;
+  border-radius: 100px !important;
+  margin-top: 10%;
+}
+
+.content-title {
+  margin: 4% 0;
+  border-bottom: 2px solid;
+}
+
+/* Menu */
+section#menu {
+  width: 50% !important;
+  margin: 0 auto;
+}
+
+.col-md-4 {
+  width: 33.33333333%;
+  padding: 3%;
+}
+
+div#profile {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.MuiTabs-root {
+  background-color: #212121; 
+}
+
+.MuiTab-textColorPrimary {
+  color: #fff !important;
+}
+
+.works h4 {
+  color: white;
+}
+
+@media only screen and (max-width: 360px) {
+  .content-title > h2 {
+    text-align: center;
+  }
+
+  img#lukas {
+    width: 250px;
+    margin: 2% 14%;
+    border-radius: 150px !important;
+    margin-top: 10%;
+  }
+
+  .col-xs-3 {
+    margin: 5%;
+    width: 90%;
+  }
+
+  .col-md-6 > p {
+    padding: 3%;
+  }
+
+  /* Menu */
+  section#menu {
+    width: 95% !important;
+    margin: 0 auto;
+  }
+
+  
+}

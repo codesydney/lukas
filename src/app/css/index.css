@@ -17,3 +17,10 @@ code {
     monospace;
 }
 
+@media only screen and (max-width: 360px) {
+  .custom-text-centre {
+    text-align: center;
+  }
+  
+}
+
