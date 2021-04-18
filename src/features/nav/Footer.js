@@ -4,7 +4,7 @@ import "../../app/css/libre.css";
 
 function Footer() {
   return (
-    <React.Fragment className="Footer" maxWidth="lg">
+    <React.Fragment>
       <footer id="footer">
         <div id="links">
           <div className="container">
@@ -15,7 +15,7 @@ function Footer() {
                 </a>
               </div>
 
-              <div className="col-sm-10 text-right">
+              <div className="col-sm-10 text-right custom-text-centre">
                 <h6>
                   Handcoded with <FavoriteIcon /> by{" "}
                   <a href="http://code.sydney/" style={{ color: "white", fontWeight: 'bold' }}>

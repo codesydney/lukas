@@ -1,10 +1,14 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import About from '../about/About';
+import Contact from '../contact/Contact';
+import Home from '../home/Home';
 import "../../app/css/libre.css";
 
 function NavBar() {
   return (
-    <React.Fragment >
-      <nav maxWidth="lg" className="navbar navbar-libre navbar-absolute-top">
+    <Router>
+      <nav className="navbar navbar-libre navbar-absolute-top">
         <div className="container">
           <div className="navbar-header">
             <button
@@ -26,23 +30,29 @@ function NavBar() {
           </div>
           <div id="navbar" className="collapse navbar-collapse">
             <ul className="nav navbar-nav navbar-right">
-              <li >
-                <a href="#">Home</a>
+              <li className="active">
+                <Link to="home">Home</Link>
+              </li>
+
+              <li>
+                <Link to="about">About</Link>
               </li>
 
               <li >
-                <a href="#">About</a>
-              </li>
-              
-              <li className="active">
-                <a href="#">Contact</a>
+                <Link to="contact">Contact</Link>
               </li>
 
             </ul>
           </div>
         </div>
       </nav>
-    </React.Fragment>
+
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/about" exact component={About} />
+        <Route path="/contact" exact component={Contact} />
+      </Switch>
+    </Router>
   );
 }
 
