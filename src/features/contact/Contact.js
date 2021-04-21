@@ -9,7 +9,7 @@ const oldPrisonCell =
 
 function Contact() {
   return (
-    <React.Fragment className="About" maxWidth="lg">
+    <React.Fragment>
       <div
         className="header page"
         style={{ backgroundImage: `${oldPrisonCell}` }}
@@ -67,12 +67,12 @@ function Contact() {
         </div>
         <div className="flex-right">
           <img
-            src="https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-            className="img-responsive"
+            src="https://images.unsplash.com/photo-1523470229013-5959bffb5e9a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+            className="img-responsive imgs"
           />
         </div>
       </div>
-      <Footer />
+      
     </React.Fragment>
   );
 }
