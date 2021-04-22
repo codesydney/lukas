@@ -4,12 +4,12 @@
   filter: grayscale(100%);
 }
 .content-contact-details {
+  border: 2px solid cadetblue;
   padding: 2rem;
   height: 25vh;
 }
 
 .contact-details-box {
-  border: 2px solid cadetblue;
   height: 100%;
 }
 
@@ -109,8 +109,8 @@ input#email,
   background-color: #60758c;
 }
 
-img {
-  filter: grayscale(100%);
+[class~=imgs] {
+  filter: grayscale(100) ;
 }
 
 .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl.MuiInputBase-multiline.MuiOutlinedInput-multiline {
@@ -179,13 +179,13 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
   }
   .flex-left {
     width: 100%;
-    background-color: lightblue;
-    box-shadow: 0 4px 8px 0 cadetblue, 0 6px 20px 0 deepskyblue;
+    background-color: #60758c;
+    
   }
 
   .flex-right {
     width: 100%;
     background-color: turquoise;
-    box-shadow: 0 4px 8px 0 cadetblue, 0 6px 20px 0 deepskyblue;
+   
   }
 }

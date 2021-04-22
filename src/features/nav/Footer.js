@@ -18,7 +18,7 @@ function Footer() {
               <div className="col-sm-10 text-right custom-text-centre">
                 <h6>
                   Handcoded with <FavoriteIcon /> by{" "}
-                  <a href="http://code.sydney/" style={{ color: "white", fontWeight: 'bold' }}>
+                  <a href="http://code.sydney/" target="_blank" style={{ color: "white", fontWeight: 'bold' }}>
                     Code.Sydney
                   </a>
                 </h6>

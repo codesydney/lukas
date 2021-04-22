@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import About from '../about/About';
-import Contact from '../contact/Contact';
 import Home from '../home/Home';
+import Contact from '../contact/Contact';
 import "../../app/css/libre.css";
+
 
 function NavBar() {
   return (
@@ -25,20 +25,16 @@ function NavBar() {
               <span className="icon-bar"></span>
             </button>
             <a className="navbar-brand" href="#">
-              <i className="ion ion-aperture spin-on-hover"></i>
+              <img id="logo" />
             </a>
           </div>
           <div id="navbar" className="collapse navbar-collapse">
             <ul className="nav navbar-nav navbar-right">
-              <li className="active">
-                <Link to="home">Home</Link>
+              <li className="active mobile">
+                <Link to="/">Home</Link>
               </li>
 
-              <li>
-                <Link to="about">About</Link>
-              </li>
-
-              <li >
+              <li className="mobile">
                 <Link to="contact">Contact</Link>
               </li>
 
@@ -49,7 +45,6 @@ function NavBar() {
 
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/about" exact component={About} />
         <Route path="/contact" exact component={Contact} />
       </Switch>
     </Router>
