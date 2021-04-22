@@ -20,6 +20,9 @@ code {
 .container {
   margin-top: 2%;
 }
+[class~=mobile] {
+  text-align: center;
+}
 
 .navbar-header {
   height: 15vh;

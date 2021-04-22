@@ -30,11 +30,11 @@ function NavBar() {
           </div>
           <div id="navbar" className="collapse navbar-collapse">
             <ul className="nav navbar-nav navbar-right">
-              <li className="active">
+              <li className="active mobile">
                 <Link to="/">Home</Link>
               </li>
 
-              <li >
+              <li className="mobile">
                 <Link to="contact">Contact</Link>
               </li>
 
