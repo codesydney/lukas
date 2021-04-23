@@ -39,21 +39,31 @@ div#profile {
 }
 
 /* Mobile max-width: 360px */
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .content-title > h2 {
     text-align: center;
   }
 
+  .row {
+    padding: 2% !important;
+  }
+
   img#lukas {
-    width: 250px;
-    margin: 2% 14%;
-    border-radius: 150px !important;
+    width: 100% !important;
+    border-radius: 50% !important;
     margin-top: 10%;
+    padding: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 
   .col-xs-3 {
-    margin: 5%;
-    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
   }
 
   .col-md-6 > p {
