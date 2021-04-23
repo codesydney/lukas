@@ -37,7 +37,8 @@ img#logo {
   top: -17px;
 }
 
-@media only screen and (max-width: 360px) {
+/* Mobile */
+@media only screen and (max-width: 400px) {
   .custom-text-centre {
     text-align: center;
   }
@@ -48,12 +49,12 @@ img#logo {
   }
 
   img#logo {
-    height: inherit;
+    height: 65px;
     content: url('../img/lukas-carey-logo-white-text.png');
     box-shadow: 1px 1px 5px 5px rgb(0 0 0 / 20%),
       1px 1px 5px 5px rgb(0 0 0 / 19%) !important;
     filter: grayscale(0) !important;
     position: absolute;
-    top: 8px;
+    top: -1px;
   }
 }

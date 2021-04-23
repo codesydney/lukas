@@ -27,7 +27,7 @@ div#profile {
 }
 
 .MuiTabs-root {
-  background-color: #212121; 
+  background-color: #212121;
 }
 
 .MuiTab-textColorPrimary {
@@ -38,7 +38,8 @@ div#profile {
   color: white;
 }
 
-@media only screen and (max-width: 360px) {
+/* Mobile max-width: 360px */
+@media only screen and (max-width: 400px) {
   .content-title > h2 {
     text-align: center;
   }
@@ -65,5 +66,13 @@ div#profile {
     margin: 0 auto;
   }
 
-  
+  h2 {
+    text-align: center !important;
+    font-size: 25px !important;
+  }
+
+  .col-md-4 {
+    width: 100%;
+    padding: 0;
+  }
 }
