@@ -2,6 +2,7 @@ import React from "react";
 import Form from "../../app/common/Form";
 import "../../app/css/libre.css";
 import "../../app/css/contact.css";
+import prisonHallway from "../../app/img/prison-hallway.jpg";
 
 const oldPrisonCell =  "url(/img/old-prison-cell.jpg)";
 
@@ -15,7 +16,7 @@ function Contact() {
         <div className="vertical-center">
           <div className="container">
             <div className="content">
-              <h1>Contact</h1>
+              <h1 className='title'>Contact</h1>
             </div>
           </div>
         </div>
@@ -65,7 +66,7 @@ function Contact() {
         </div>
         <div className="flex-right">
           <img
-            src="https://images.unsplash.com/photo-1523470229013-5959bffb5e9a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+            src={prisonHallway}
             className="img-responsive imgs"
           />
         </div>
