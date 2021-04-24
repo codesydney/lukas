@@ -4,7 +4,7 @@ import "../../app/css/libre.css";
 import "../../app/css/home.css";
 import lukascarey from "../../app/img/lukascarey.jpg";
 
-const oldPrisonCell =  "url(/img/old-prison-cell.jpg)";
+const oldPrisonCell = "url(/img/old-prison-cell.jpg)";
 
 function Home() {
   return (
@@ -16,8 +16,9 @@ function Home() {
         <div className="vertical-center">
           <div className="container">
             <div className="content">
-              
+              <h1 className='title'>Dr. Lukas Carey</h1>
             </div>
+            <h4>Educator | Trainor | Academic</h4>
           </div>
         </div>
       </div>
@@ -29,7 +30,7 @@ function Home() {
             </div>
             <div className="col-md-6">
               <div className="content-title">
-                <h2>Dr. Lukas Carey</h2>
+                
               </div>
               <div className="content-description">
                 <p>
@@ -56,7 +57,7 @@ function Home() {
 
         </div>
       </div>
-      
+
     </React.Fragment>
   );
 }
