@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Form from "../../app/common/Form";
 import "../../app/css/libre.css";
 import "../../app/css/contact.css";
 import prisonHallway from "../../app/img/prison-hallway.jpg";
+import DraggableDialog from "../../features/dialogs/DraggableDialog";
 
 const oldPrisonCell =  "url(/img/old-prison-cell.jpg)";
 
 function Contact() {
+  const [confirmation, setConfirmation] = useState(false);
+
+  useEffect(() => {
+    console.log(`confirmation: ${confirmation}`);
+    
+  }, [confirmation]);
+
   return (
     <React.Fragment>
       <div
@@ -59,10 +67,8 @@ function Contact() {
       </div>
       <div className="flex-container">
         <div className="flex-left">
-          <div id="form-title">
-            <h4>Send me a message</h4>
-          </div>
-          <Form />
+          <Form setConfirmation={setConfirmation} />
+          {confirmation ? <DraggableDialog setConfirmation={setConfirmation} /> : ''  }
         </div>
         <div className="flex-right">
           <img

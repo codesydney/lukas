@@ -1,10 +1,9 @@
 /* Contact Form */
 .header.page {
-  box-shadow: 0 2px 8px 0 black, 0 6px 20px 0 grey;
-  filter: grayscale(100%);
+  box-shadow: inset 10px 50px 300px 101px #000;
 }
 .content-contact-details {
-  border: 2px solid cadetblue;
+  border: 2px solid #60758C;
   padding: 2rem;
   height: 25vh;
 }
@@ -55,7 +54,7 @@ img.img-responsive {
   margin: inherit;
   width: 55%;
   padding: 3%;
-  border-bottom: 2px solid cadetblue;
+  border-bottom: 2px solid #60758C;
 }
 
 form {

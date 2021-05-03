@@ -38,8 +38,8 @@ code {
 /* Logo */
 
 img#logo {
-  height: 180px;
-  content: url('../img/lukas-carey-logo-black-text.png');
+  height: 190px;
+  content: url('../img/lukas-carey-logo-white-text.png');
   position: absolute;
   top: -17px;
 }

@@ -1,13 +1,13 @@
 import React from "react";
 import Menu from "../../app/common/Menu";
 import "../../app/css/libre.css";
-import "../../app/css/home.css";
+import "../../app/css/about.css";
 import lukascarey from "../../app/img/lukascarey.jpg";
 
 const oldPrisonCell = "url(/img/old-prison-cell.jpg)";
 const barbwire = "url(/img/hedi-benyounes.jpg)";
 
-function About() {
+function Home() {
   return (
     <React.Fragment>
       <div
@@ -69,4 +69,4 @@ function About() {
   );
 }
 
-export default About;
+export default Home;
