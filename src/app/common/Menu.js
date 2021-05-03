@@ -75,9 +75,9 @@ export default function FullWidthTabs() {
           textColor="primary"
           variant="fullWidth"
         >
-          <Tab label="Degrees" {...a11yProps(0)} />
-          <Tab label="Research" {...a11yProps(1)} />
-          <Tab label="Works" {...a11yProps(2)} />
+          <Tab label="Education History" {...a11yProps(0)} />
+          <Tab label="Research Interest" {...a11yProps(1)} />
+          <Tab label="Research" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
       <SwipeableViews
@@ -106,31 +106,54 @@ export default function FullWidthTabs() {
               <h4>Masters of Business/Sports Management</h4>
               <span>Deakin University</span>
             </li>
-            
+
             <li>
               <h4>Graduate Certificate of Arts</h4>
               <span>Swinburne University</span>
             </li>
-            
+
             <li>
               <h4>Certificate IV in Training and Assessment</h4>
               <span>Ballarat Business School</span>
             </li>
-            
+
             <li>
               <h4>Masters Certificate - Business/Law of Sport</h4>
               <span>Villanova University</span>
             </li>
-            
+
             <li>
               <h4>Graduate Certificate - Criminology</h4>
               <span>Griffith University</span>
             </li>
-            
+
           </ul>
         </TabPanel>
         <TabPanel value={value} index={1} dir={theme.direction}>
+
+          <ul className="works">
+            <h2>Areas of Expertise</h2>
+            <div className="col-md-4">
+              <li><h5>Lived Experience</h5></li>
+              <li><h5>Education for the incarcerated</h5></li>
+              <li><h5>Convict Criminology</h5></li>
+            </div>
+            <div className="col-md-4">
+              <li><h5>Education – Marginalised people</h5></li>
+              <li><h5>Equal educational opportunities</h5></li>
+              <li><h5>Sport / Facility Management / Planning</h5></li>
+            </div>
+            <div className="col-md-4">
+              <li><h5>Education</h5></li>
+              <li><h5>Leadership</h5></li>
+              <li><h5>Coaching</h5></li>
+            </div>
+
+          </ul>
+        </TabPanel>
+        <TabPanel value={value} index={2} dir={theme.direction}>
           <ul className="research-initiatives">
+            <h2>Research</h2>
             <li>
               <p>
                 Education while incarcerated - Does it increase employment
@@ -192,27 +215,6 @@ export default function FullWidthTabs() {
                 Book.
               </p>
             </li>
-          </ul>
-        </TabPanel>
-        <TabPanel value={value} index={2} dir={theme.direction}>
-          <h2>Areas of Expertise</h2>
-          <ul className="works">
-            <div className="col-md-4">
-              <li><h5>Lived Experience</h5></li>
-              <li><h5>Education for the incarcerated</h5></li>
-              <li><h5>Convict Criminology</h5></li>
-            </div>
-            <div className="col-md-4">
-              <li><h5>Education – Marginalised people</h5></li>
-              <li><h5>Equal educational opportunities</h5></li>
-              <li><h5>Sport / Facility Management / Planning</h5></li>
-            </div>
-            <div className="col-md-4">
-              <li><h5>Education</h5></li>
-              <li><h5>Leadership</h5></li>
-              <li><h5>Coaching</h5></li>
-            </div>
-
           </ul>
         </TabPanel>
       </SwipeableViews>
