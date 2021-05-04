@@ -64,9 +64,6 @@ form {
   width: 70%;
 }
 
-label#outlined-textarea-label {
-  padding: 2%;
-}
 
 textarea#outlined-textarea {
   height: 14vh;
@@ -90,6 +87,7 @@ input#name,
 input#email,
 .MuiOutlinedInput-inputMultiline {
   color: white;
+  padding: 2.50%;
 }
 
 .flex-container {
@@ -109,7 +107,21 @@ input#email,
 }
 
 [class~=imgs] {
-  filter: grayscale(100) ;
+  filter: grayscale(100);
+}
+
+/* Autofill */
+.MuiOutlinedInput-root {
+  padding: 5px;
+}
+
+/* Border color */
+.MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
+
+.MuiInputBase-root {
+  font-size: 15px !important;
 }
 
 .MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl.MuiInputBase-multiline.MuiOutlinedInput-multiline {
@@ -133,6 +145,16 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
 .MuiButton-label {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-size: 1.5rem;
+}
+
+label#name-label,label#email-label,
+label#outlined-textarea-label {
+    color: white;
+    font-size: 15px;
+}
+
+input:-webkit-autofill {
+  box-shadow: 0 0 10px 10px none inset;
 }
 
 /* Mobile First */

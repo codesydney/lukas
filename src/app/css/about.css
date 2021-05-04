@@ -1,0 +1,88 @@
+img#lukas {
+  filter: grayscale(100%);
+  width: 200px !important;
+  border-radius: 100px !important;
+  margin-top: 10%;
+}
+
+.content-title {
+  margin: 4% 0;
+  border-bottom: 2px solid;
+}
+
+/* Menu */
+section#menu {
+  width: 50% !important;
+  margin: 0 auto;
+}
+
+.col-md-4 {
+  width: 33.33333333%;
+  padding: 3%;
+}
+
+div#profile {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.MuiTabs-root {
+  background-color: #212121;
+}
+
+.MuiTab-textColorPrimary {
+  color: #fff !important;
+}
+
+.works h4 {
+  color: white;
+}
+
+/* Mobile max-width: 360px */
+@media screen and (max-width: 600px) {
+  .content-title > h2 {
+    text-align: center;
+  }
+
+  .row {
+    padding: 2% !important;
+  }
+
+  img#lukas {
+    width: 100% !important;
+    border-radius: 50% !important;
+    margin-top: 10%;
+    padding: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .col-xs-3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .col-md-6 > p {
+    padding: 3%;
+  }
+
+  /* Menu */
+  section#menu {
+    width: 95% !important;
+    margin: 0 auto;
+  }
+
+  h2 {
+    text-align: center !important;
+    font-size: 25px !important;
+  }
+
+  .col-md-4 {
+    width: 100%;
+    padding: 0;
+  }
+}
