@@ -10,17 +10,17 @@ function Footer() {
           <div className="container">
             <div className="row">
               <div className="col-sm-1">
-                <a className="brand" href="#">
+                <a className="brand" href="#" target="_blank">
                   <i className="fa fa-facebook"></i>
                 </a>
               </div>
               <div className="col-sm-1">
-                <a className="brand" href="#">
+                <a className="brand" href="#" target="_blank">
                   <i class="fa fa-twitter"></i>
                 </a>
               </div>
               <div className="col-sm-1">
-                <a className="brand" href="https://www.linkedin.com/in/lukas-carey-598750185/">
+                <a className="brand" href="https://www.linkedin.com/in/lukas-carey-598750185/" target="_blank">
                   <i class="fa fa-linkedin"></i>
                 </a>
               </div>
