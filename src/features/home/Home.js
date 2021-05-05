@@ -7,7 +7,7 @@ import lukascarey from "../../app/img/lukascarey.jpg";
 const oldPrisonCell = "url(/img/old-prison-cell.jpg)";
 const barbwire = "url(/img/hedi-benyounes.jpg)";
 
-function About() {
+function Home() {
   return (
     <React.Fragment>
       <div
@@ -17,9 +17,9 @@ function About() {
         <div className="vertical-center">
           <div className="container">
             <div className="content">
-              <h1 className='title'>Dr. Lukas Carey</h1>
+              <h1 className='title'>Title</h1>
             </div>
-            <h4>Educator | Trainor | Academic</h4>
+            <h4>text</h4>
           </div>
         </div>
       </div>
@@ -69,4 +69,4 @@ function About() {
   );
 }
 
-export default About;
+export default Home;

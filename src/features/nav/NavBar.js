@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import Home from '../home/Home';
 import Contact from '../contact/Contact';
+import About from '../about/About';
 import "../../app/css/libre.css";
 
 
@@ -35,6 +36,10 @@ function NavBar() {
               </li>
 
               <li className="mobile">
+                <Link to="/about">About</Link>
+              </li>
+
+              <li className="mobile">
                 <Link to="contact">Contact</Link>
               </li>
 
@@ -45,6 +50,7 @@ function NavBar() {
 
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/about" exact component={About} />
         <Route path="/contact" exact component={Contact} />
       </Switch>
     </Router>
