@@ -23,10 +23,10 @@ code {
   font-family: 'Comic Sans';
 }
 
-/* Navbar */
+/* Navbar 
 .container {
   margin-top: 2%;
-}
+}*/
 [class~=mobile] {
   text-align: center;
 }

@@ -9,13 +9,23 @@ function Footer() {
         <div id="links">
           <div className="container">
             <div className="row">
-              <div className="col-sm-2">
-                <a className="brand" href="index.html">
-                  <i className="ion ion-aperture spin-on-hover"></i>
+              <div className="col-sm-1">
+                <a className="brand" href="#" target="_blank">
+                  <i className="fa fa-facebook"></i>
+                </a>
+              </div>
+              <div className="col-sm-1">
+                <a className="brand" href="#" target="_blank">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </div>
+              <div className="col-sm-1">
+                <a className="brand" href="https://www.linkedin.com/in/lukas-carey-598750185/" target="_blank">
+                  <i class="fa fa-linkedin"></i>
                 </a>
               </div>
 
-              <div className="col-sm-10 text-right custom-text-centre">
+              <div className="col-sm-9 text-right custom-text-centre">
                 <h6>
                   Handcoded with <FavoriteIcon /> by{" "}
                   <a href="http://code.sydney/" target="_blank" style={{ color: "white", fontWeight: 'bold' }}>
