@@ -359,7 +359,7 @@ fieldset[disabled] .navbar-libre .btn-link:focus {
 ***********************************************/
 .intro,
 .intro .container {
-	height: 100%;
+	height: 100vh;
 	color: #fff;
 	position: relative;
 }
