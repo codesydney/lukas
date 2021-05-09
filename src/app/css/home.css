@@ -1,88 +1,63 @@
-img#lukas {
-  filter: grayscale(100%);
-  width: 200px !important;
-  border-radius: 100px !important;
-  margin-top: 10%;
+.landing {
+  width: 100%;
+  height: 100vh;
 }
 
-.content-title {
-  margin: 4% 0;
-  border-bottom: 2px solid;
+.intro .vertical-center {
+  position: absolute;
+  top: 40rem;
 }
 
-/* Menu */
-section#menu {
-  width: 50% !important;
-  margin: 0 auto;
+[id~='intro-slider'] {
+  padding-left: inherit;
+  padding-right: inherit;
 }
 
-.col-md-4 {
-  width: 33.33333333%;
-  padding: 3%;
+/* Ken Burns Effect */
+div.intro-slider div {
+  width: 100%;
+  animation: move 40s ease;
+  
+
+  -ms-animation: move 40s ease;
+  -webkit-animation: move 40s ease;
+  -moz-animation: move 40s ease;
+  position: absolute;
 }
 
-div#profile {
-  width: 50%;
-  margin: 0 auto;
-}
+@keyframes move {
+    0% {
+      -webkit-transform-origin: bottom left;
+      -moz-transform-origin: bottom left;
+      -ms-transform-origin: bottom left;
+      -o-transform-origin: bottom left;
+      transform-origin: bottom left;
+      transform: scale(1.0);
 
-.MuiTabs-root {
-  background-color: #212121;
-}
-
-.MuiTab-textColorPrimary {
-  color: #fff !important;
-}
-
-.works h4 {
-  color: white;
-}
-
-/* Mobile max-width: 360px */
-@media screen and (max-width: 600px) {
-  .content-title > h2 {
-    text-align: center;
+      -ms-transform: scale(1.0);
+      
+      
+      -webkit-transform: scale(1.0);
+      
+      
+      -o-transform: scale(1.0);
+      
+      
+      -moz-transform: scale(1.0);
+      
+    }
+    100% {
+      transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      
+      
+      -webkit-transform: scale(1.2);
+      
+      
+      -o-transform: scale(1.2);
+      
+      
+      -moz-transform: scale(1.2);
+      
+    }
   }
-
-  .row {
-    padding: 2% !important;
-  }
-
-  img#lukas {
-    width: 100% !important;
-    border-radius: 50% !important;
-    margin-top: 10%;
-    padding: 4%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-
-  .col-xs-3 {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 100%;
-    padding-left: 1%;
-    padding-right: 1%;
-  }
-
-  .col-md-6 > p {
-    padding: 3%;
-  }
-
-  /* Menu */
-  section#menu {
-    width: 95% !important;
-    margin: 0 auto;
-  }
-
-  h2 {
-    text-align: center !important;
-    font-size: 25px !important;
-  }
-
-  .col-md-4 {
-    width: 100%;
-    padding: 0;
-  }
-}
