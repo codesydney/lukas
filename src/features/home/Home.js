@@ -9,9 +9,8 @@ const oldPrisonCell = "url(/img/old-prison-cell.jpg)";
 const barbwire = "url(/img/hedi-benyounes.jpg)";
 
 const images = [
-  { url: "img/travel/unsplash-1.jpg" },
-  { url: "img/travel/unsplash-2.jpg" },
-  { url: "img/travel/unsplash-3.jpg" },
+  { url: "img/prison-hallway.jpg" },
+ 
 ];
 
 function Home() {
@@ -44,13 +43,9 @@ function Home() {
 
         <div className="intro-slider">
           <SimpleImageSlider
-            className='stv'
-            id='simple-image-slider'
             bgColor={'#60758C'}
             width={'inherit'}
             height={'inherit'}
-            showBullets={true}
-            showNavs={true}
             images={images}
           >
             <div>hello</div>

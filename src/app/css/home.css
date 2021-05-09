@@ -14,10 +14,15 @@
 }
 
 /* Ken Burns Effect */
+div.intro-slider {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}  
+
 div.intro-slider div {
   width: 100%;
   animation: move 40s ease;
-  
+  overflow-x: hidden;
 
   -ms-animation: move 40s ease;
   -webkit-animation: move 40s ease;
