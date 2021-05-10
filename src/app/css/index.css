@@ -23,10 +23,6 @@ code {
   font-family: 'Comic Sans';
 }
 
-/* Navbar 
-.container {
-  margin-top: 2%;
-}*/
 [class~=mobile] {
   text-align: center;
 }
@@ -50,6 +46,7 @@ img#logo {
     text-align: center;
   }
 
+  
   /* Logo */
   .navbar-header {
     height: 7.9vh;

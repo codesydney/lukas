@@ -38,15 +38,19 @@ function NavBar() {
               </li>
 
               <li className="mobile">
+                <Link to="/about">About</Link>
+              </li>
+
+              <li className="mobile">
                 <Link to="/talkingtime">Talking Time</Link>
               </li>
 
               <li className="mobile">
-                <Link to="/links">Links</Link>
+                <Link to="/blogs">Blogs</Link>
               </li>
 
               <li className="mobile">
-                <Link to="/about">About</Link>
+                <Link to="/links">Links</Link>
               </li>
 
               <li className="mobile">
@@ -60,9 +64,10 @@ function NavBar() {
 
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/about" exact component={About} />
         <Route path="/talkingtime" exact component={TalkingTime} />
         <Route path="/links" exact component={Home} />
-        <Route path="/about" exact component={About} />
+        
         <Route path="/contact" exact component={Contact} />
       </Switch>
     </Router>

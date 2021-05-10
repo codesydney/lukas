@@ -29,16 +29,21 @@ function TalkingTime() {
 
                         <div className="col-md-10">
                             <div className="content-title">
-                                <h1>Links to Shows</h1>
+                                <h1>Spotify</h1>
                             </div>
                             <div className="content-description" >
-                                <ul id='shows'>
-                                    <li><a href="#">Sentencing Project</a></li>
-                                    <li><a href="#">Impact Justice</a></li>
-                                    <li><a href="#">Lived Experience</a></li>
-                                    <li><a href="#">Convict Criminology</a></li>
-                                    <li><a href="#">Life Experience</a></li>
-                                </ul>
+                                <div className='shows'>
+                                    <iframe src="https://open.spotify.com/embed/episode/0OQnGlAQBMJPNpFu10swPp" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                                </div>
+                                <div className='shows'>
+                                    <iframe src="https://open.spotify.com/embed/episode/1JFdwyvaCThhdal10OFqYY" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                                </div>
+                                <div className='shows'>
+                                    <iframe src="https://open.spotify.com/embed/episode/2TDcmIvMeOburTMMJv0tkO" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                                </div>
+                                <div className='shows'>
+                                    <iframe src="https://open.spotify.com/embed/episode/346ALFkWzRZpfKxBeToRE6" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                                </div>
                             </div>
                         </div>
                     </div>
