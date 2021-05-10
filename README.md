@@ -4,6 +4,7 @@
 - [About the Project](#about-the-project)
 - [Project Files](#project-files)
 - [Specifications](#specifications)
+- [Staging Area](#staging-area)
 
 ----
 
@@ -20,4 +21,7 @@
 - [Requirements Specification](https://docs.google.com/document/d/1pEth00FkfiQBnYiZ90yHLeGCsVCwkMZCeBAKhVwIgWc/edit?usp=sharing)
 - [Figma Prototype](#todo)
 - [Design Document](#todo)
+
 ----
+## Staging Area
+- [Link to Staging Area](https://main.dvean498p7ex2.amplifyapp.com/about)
