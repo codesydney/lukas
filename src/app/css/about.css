@@ -34,6 +34,10 @@ div#profile {
   color: #fff !important;
 }
 
+.PrivateTabIndicator-colorPrimary-3 {
+  background-color: #60758C !important;
+}
+
 .works h4 {
   color: white;
 }
