@@ -3,8 +3,7 @@ import Menu from "../../app/common/Menu";
 import SimpleImageSlider from "react-simple-image-slider";
 import "../../app/css/libre.css";
 import "../../app/css/home.css";
-//import unsplash2 from "../../app/img/travel/unsplash-1.jpg";
-
+import { Link } from "react-router-dom";
 const oldPrisonCell = "url(/img/old-prison-cell.jpg)";
 const barbwire = "url(/img/hedi-benyounes.jpg)";
 
@@ -60,9 +59,10 @@ function Home() {
               <div class="caption">
                 <span class="post-tag">Apps</span>
                 <h2>
-                  <a href="post-image.html" class="post-title">
+                  <Link to="/blogs/details" class="post-title">
                     Leave it alone
-                  </a>
+                  </Link>
+                  
                 </h2>
                 <p class="post-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
               <br />
