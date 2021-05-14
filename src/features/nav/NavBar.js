@@ -46,7 +46,7 @@ function NavBar() {
               </li>
 
               <li className="mobile">
-                <Link to="/blogs/details">Blogs</Link>
+                <Link to="/blogs">Blogs</Link>
               </li>
 
               <li className="mobile">
@@ -67,7 +67,7 @@ function NavBar() {
         <Route path="/about" exact component={About} />
         <Route path="/talkingtime" exact component={TalkingTime} />
         <Route path="/links" exact component={Home} />
-        <Route path="/blogs/details" exact component={BlogDetails} /> { /* */ }
+        <Route path="/blogs/details" exact component={BlogDetails} /> 
         <Route path="/contact" exact component={Contact} />
       </Switch>
     </Router>
