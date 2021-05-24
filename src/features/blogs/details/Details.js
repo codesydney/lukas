@@ -2,9 +2,10 @@ import React from "react";
 import Disqus from "disqus-react";
 
 export function Details() {
+  
   const disqusShortname = "lukascarey"
   const disqusConfig = {
-    url: "http://localhost:3000",
+    url: "http://localhost:3000/blogs/details",
     identifier: "0",
     title: "Title of Your Article"
   }
@@ -45,7 +46,7 @@ export function Details() {
               <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
             </div>
             <div class="col-md-5">
-              <img src="img/photos/travel/unsplash-7.jpg" class="img-responsive" />
+              <img src="/img/p3.png" class="img-responsive" />
             </div>
           </div>
 
@@ -75,14 +76,19 @@ export function Details() {
           </div>
 
           <p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. <strong>Etiam rhoncus</strong>. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante <a href="#">tincidunt tempus</a>.</p>
-
+          <br/>
           <div className="article-container">
 
             <h1>Let me hear your thoughts</h1>
 
             <Disqus.DiscussionEmbed
+
               shortname={disqusShortname}
-              config={disqusConfig}
+              config={{
+                url: `http://localhost:3000/blogs/details`,
+                identifier: "0",
+                title: "Title of Your Article"
+              }}
             />
           </div>
 
