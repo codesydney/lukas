@@ -8,7 +8,8 @@ import emailjs, { init } from 'emailjs-com';
 
 import LoadingSpinner from "../common/LoadingSpinner";
 
-init('user_67GmyDWgJjtSfWiyYKVzY');
+//init('user_67GmyDWgJjtSfWiyYKVzY'); stephen
+init('user_mdlvoe4siwYLGJHeOOv14');
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -21,8 +22,8 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 var data = {
-  service_id: 'service_2elw0p9',
-  template_id: 'contact_form'
+  service_id: 'service_mghu9ai',
+  template_id: 'template_h2kj386'
 };
 
 
@@ -40,7 +41,7 @@ function Form({ setConfirmation }) {
 
     emailjs.send(data.service_id, data.template_id, {
       from_name: fromName,
-      to_name: "Stephen Corral",
+      to_name: "Lukas Carey",
       message: message,
       from_email: fromEmail,
     })
