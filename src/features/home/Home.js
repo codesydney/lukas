@@ -57,104 +57,89 @@ function Home() {
           <div class="col-sm-4">
             <section class="post">
               <div class="caption">
-                <span class="post-tag">Apps</span>
+                <span class="post-tag">Blog</span>
                 <h2>
                   <Link to="/blogs/details" class="post-title">
                     Leave it alone
                   </Link>
-                  
                 </h2>
-                <p class="post-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-              <br />
-                  <br />
-              Cum sociis natoque penatibus et magnis dis parturient montes magnis dis parturient montes, nascetur ridiculus mus. Aenean commodo <a href="#">ligula eget dolor</a>.</p>
+                <p class="post-description">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                  Aenean commodo ligula eget dolor. Aenean massa.
+                  <br /><br />
+                  Cum sociis natoque penatibus et magnis dis parturient montes 
+                  magnis dis parturient montes, nascetur ridiculus mus. Aenean 
+                  commodo <a href="#">ligula eget dolor</a>.
+                </p>
                 <a class="post-share" href="#"><i class="ion ion-android-share-alt"></i></a>
-                <span class="post-date"><i class="ion ion-android-time"></i> <span class="slant">7 March 2016</span></span>
+                <span class="post-date"><i class="ion ion-android-time"></i> 
+                  <span class="slant">
+                    24 May 2021
+                  </span>
+                </span>
               </div>
             </section>
             <div class="post">
               <img alt="" src="img/photos/tech/unsplash-5.jpg" class="img-responsive" />
             </div>
-            <section class="post">
-              <div class="caption">
-                <span class="post-tag">Apps</span>
-                <h2><a href="post-image.html" class="post-title">Stay near your television</a></h2>
-                <p class="post-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-              <br />
-                  <br />
-                  <a href="#">Cum sociis natoque</a> penatibus et magnis dis parturient montes magnis dis parturient montes, nascetur ridiculus mus. Aenean commodo ligula eget dolor.</p>
-                <a class="post-share" href="#"><i class="ion ion-android-share-alt"></i></a>
-                <span class="post-date"><i class="ion ion-android-time"></i> <span class="slant">27 January 2016</span></span>
-              </div>
-            </section>
+
+
           </div>
           <div class="col-sm-4">
             <section class="post">
               <img alt="" src="img/photos/tech/unsplash-6.jpg" class="img-responsive" />
               <div class="caption">
-                <span class="post-tag">News</span>
-                <h2><a href="post-image.html" class="post-title">Killers are calling on me</a></h2>
-                <p class="post-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                <span class="post-tag">Blog</span>
+                <h2>
+                  <Link to="/blogs/details" class="post-title">
+                    Killers are calling on me
+                  </Link>
+                </h2>
+                <p class="post-description">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                  Aenean commodo ligula eget dolor. Aenean massa.
+                </p>
                 <a class="post-share" href="#"><i class="ion ion-android-share-alt"></i></a>
-                <span class="post-date"><i class="ion ion-android-time"></i> <span class="slant">2 March 2016</span></span>
+                <span class="post-date">
+                  <i class="ion ion-android-time"></i> 
+                  <span class="slant">
+                    22 May 2021
+                  </span>
+                </span>
               </div>
             </section>
-            <section class="post">
-              <div class="caption">
-                <h2><a href="post-image.html" class="post-title">Can you tie my string?</a></h2>
-                <p class="post-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-              <br />
-                  <br />
-              Cum sociis natoque penatibus et magnis dis parturient montes magnis dis parturient montes, nascetur ridiculus mus. Aenean commodo <a href="#">ligula eget dolor</a>.</p>
-                <a class="post-share" href="#"><i class="ion ion-android-share-alt"></i></a>
-                <span class="post-date"><i class="ion ion-android-time"></i> <span class="slant">16 February 2016</span></span>
-              </div>
-            </section>
-            <section class="post">
-              <img alt="" src="img/photos/tech/unsplash-1.jpg" class="img-responsive" />
-              <div class="caption">
-                <h2><a href="post-image.html" class="post-title">Rainbow lights in the garden</a></h2>
-                <p class="post-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                <a class="post-share" href="#"><i class="ion ion-android-share-alt"></i></a>
-                <span class="post-date"><i class="ion ion-android-time"></i> <span class="slant">13 January 2016</span></span>
-              </div>
-            </section>
+
+
           </div>
           <div class="col-sm-4">
             <section class="post">
               <div class="caption">
-                <h2><a href="post-image.html" class="post-title">My angel face is falling</a></h2>
-                <p class="post-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. <a href="#">Aenean massa.</a>
+                <h2>
+                  <Link to="/blogs/details" class="post-title">
+                    My angel face is falling
+                  </Link>
+                </h2>
+                <p class="post-description">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                  Aenean commodo ligula eget dolor. <a href="#">Aenean massa.</a>
                   <br />
                   <br />
-              Cum sociis natoque penatibus et magnis dis parturient montes magnis dis parturient montes, nascetur ridiculus mus. Aenean commodo ligula eget dolor.</p>
+                  Cum sociis natoque penatibus et magnis dis parturient montes magnis dis 
+                  parturient montes, nascetur ridiculus mus. Aenean commodo ligula eget dolor.
+                </p>
                 <a class="post-share" href="#"><i class="ion ion-android-share-alt"></i></a>
-                <span class="post-date"><i class="ion ion-android-time"></i> <span class="slant">25 February 2016</span></span>
+                <span class="post-date">
+                  <i class="ion ion-android-time"></i> 
+                  <span class="slant">
+                    20 May 2021
+                  </span>
+                </span>
               </div>
             </section>
-            <section class="post">
-              <img alt="" src="img/photos/tech/unsplash-4.jpg" class="img-responsive" />
-              <div class="caption">
-                <span class="post-tag">Apps</span>
-                <h2><a href="post-image.html" class="post-title">Throw out our golden arms</a></h2>
-                <p class="post-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                <a class="post-share" href="#"><i class="ion ion-android-share-alt"></i></a>
-                <span class="post-date"><i class="ion ion-android-time"></i> <span class="slant">8 February 2016</span></span>
-              </div>
-            </section>
-            <section class="post">
-              <div class="caption">
-                <span class="post-tag">News</span>
-                <h2><a href="post-image.html" class="post-title">I can waste your time</a></h2>
-                <p class="post-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-              <br />
-                  <br />
-              Cum sociis natoque penatibus et magnis dis parturient montes magnis dis parturient montes, nascetur ridiculus mus. Aenean commodo <a href="#">ligula eget dolor</a>.</p>
-                <a class="post-share" href="#"><i class="ion ion-android-share-alt"></i></a>
-                <span class="post-date"><i class="ion ion-android-time"></i> <span class="slant">2 January 2016</span></span>
-              </div>
-            </section>
+
+
           </div>
+
           <div class="col-sm-12 text-center">
             <a class="btn btn-default btn-round-lg btn-lg" href="#">
               Load more
