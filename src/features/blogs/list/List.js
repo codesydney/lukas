@@ -1,57 +1,28 @@
 import React from "react";
-import Menu from "../../app/common/Menu";
 import SimpleImageSlider from "react-simple-image-slider";
-import "../../app/css/libre.css";
-import "../../app/css/home.css";
+import "../../../app/css/libre.css";
+import "../../../app/css/home.css";
 import { Link } from "react-router-dom";
-const oldPrisonCell = "url(/img/old-prison-cell.jpg)";
-const barbwire = "url(/img/hedi-benyounes.jpg)";
 
 const images = [
   { url: "img/prison-hallway.jpg" },
 
 ];
 
-function Home() {
+export const List = () => {
   return (
     <React.Fragment>
-      <div className="intro">
+      <div class="header page" style={{ backgroundImage: "url(/img/library.jpg)" }}>
 
-        <div className="container">
-          <div className="content">
-            <div className="row">
-              <div className="col-md-7">
-
-                <div className="vertical-center">
-                  <span className="intro-head">Latest posts</span>
-                  <a className="slider-link" href="#">
-                    <h1 className="slider-caption" >My angel face is falling, feathers are falling on my feet</h1>
-                  </a>
-                  <a className="prev">
-                    <i className="ion ion-chevron-left"></i>
-                  </a>
-                  <a className="next">
-                    <i className="ion ion-chevron-right"></i>
-                  </a>
-                </div>
-
-              </div>
+        <div class="vertical-center">
+          <div class="container">
+            <div class="content">
+              <h1>Blogs</h1>
             </div>
           </div>
         </div>
-
-        <div className="intro-slider">
-          <SimpleImageSlider
-            bgColor={'#60758C'}
-            width={'inherit'}
-            height={'inherit'}
-            images={images}
-          >
-            <div>hello</div>
-          </SimpleImageSlider>
-        </div>
-
       </div>
+
       <div class="posts container">
         <div class="row">
 
@@ -78,13 +49,11 @@ function Home() {
                 </span>
               </div>
             </section>
-            
+
             <div class="post">
               <img alt="" src="img/photos/tech/unsplash-5.jpg" class="img-responsive" />
             </div>
           </div>
-
-
 
           <div class="col-sm-12 text-center">
             <a class="btn btn-default btn-round-lg btn-lg" href="#">
@@ -96,5 +65,3 @@ function Home() {
     </React.Fragment>
   );
 }
-
-export default Home;

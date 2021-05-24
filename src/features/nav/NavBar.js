@@ -5,6 +5,7 @@ import Contact from '../contact/Contact';
 import About from '../about/About';
 import TalkingTime from '../talkingtime/TalkingTime';
 import { Details as BlogDetails } from '../blogs/details/Details';
+import { List as BlogList } from '../blogs/list/List';
 import "../../app/css/libre.css";
 
 
@@ -49,9 +50,7 @@ function NavBar() {
                 <Link to="/blogs">Blogs</Link>
               </li>
 
-              <li className="mobile">
-                <Link to="/links">Links</Link>
-              </li>
+              
 
               <li className="mobile">
                 <Link to="contact">Contact</Link>
@@ -66,7 +65,8 @@ function NavBar() {
         <Route path="/" exact component={Home} />
         <Route path="/about" exact component={About} />
         <Route path="/talkingtime" exact component={TalkingTime} />
-        <Route path="/links" exact component={Home} />
+        
+        <Route path="/blogs" exact component={BlogList} /> 
         <Route path="/blogs/details" exact component={BlogDetails} /> 
         <Route path="/contact" exact component={Contact} />
       </Switch>

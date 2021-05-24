@@ -2,7 +2,7 @@ import React from "react";
 import Disqus from "disqus-react";
 
 export function Details() {
-  
+
   const disqusShortname = "lukascarey"
   const disqusConfig = {
     url: "http://localhost:3000/blogs/details",
@@ -18,8 +18,8 @@ export function Details() {
           <div class="container">
             <div class="content">
               <span class="post-tag">Blog</span>
-              <h1>Rainbow lights in the garden</h1>
-              <span class="post-date slant">16 February 2016</span>
+              <h1>The Power of Lived Experience</h1>
+              <span class="post-date slant">24 May 2021</span>
             </div>
           </div>
         </div>
@@ -27,56 +27,49 @@ export function Details() {
       <div class="single post container">
 
         <div class="content">
-          <h2>Stay near your television</h2>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque <a href="#">penatibus</a> et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, <strong>pretium quis, sem.</strong></p>
+          <h2>Owning Your Own Narrative</h2>
+          <p>
+            Dr. Lukas Carey completed his Doctorate in education and has worked in the field for most
+            of his working life as a coach, teacher, trainer and educator. While filling a role in local
+            government he was charged with receiving secret commissions and served time in Prison.
+            During that time Lukas used his theoretical lived experience knowledge to study the lives of
+            the incarcerated, the educational happenings inside the justice system and their influence
+            over the future employment opportunities upon release.
+          </p>
 
-          <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+          <p>
+            With an interest in the role previously incarcerated people have in the development of policy
+            and procedure in the justice system, Lukas is a strong advocate for the Convict Criminology and
+            Lived Experience stream. The importance of the lived experiences of previously incarcerated people
+            and people from working class backgrounds drive the work Lukas is doing in the education and
+            research field.
+          </p>
 
-          <blockquote>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-          </blockquote>
-
-          <p><strong>Aliquam lorem ante</strong>, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. <strong>Etiam rhoncus</strong>. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante <a href="#">tincidunt tempus</a>.</p>
+          
 
           <div class="row">
             <div class="col-md-7">
-              <h3>We'll throw out our golden arms</h3>
-              <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
-
-              <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+              <h3>Lived Experience</h3>
+              <p>
+                The negative experiences of many working class academics and previously incarcerated people from working class 
+                backgrounds often eat them up from the inside out. In the large part, the world sees people from these backgrounds 
+                as second-class citizens and their experiences as negative. The recent Working Class Academics conference bought 
+                together a diverse and intriguing set of people with amazing lived experiences. The common factor that all presented 
+                highlighted in both a deliberate and also subconscious way, was the need to ‘own your own narrative’.
+              </p>
             </div>
             <div class="col-md-5">
               <img src="/img/p3.png" class="img-responsive" />
             </div>
           </div>
 
-          <p><strong>Aliquam lorem ante</strong>, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. <strong>Etiam rhoncus</strong>. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante <a href="#">tincidunt tempus</a>.</p>
+          <p>
+            <strong> So you come from a working class background?  You have a criminal record? </strong>   
+            You are fighting daily to remain relevant or equal? There are thousands of people around the world sharing the same challenges on a daily basis. They wake up in the morning and fight anxiety. They wake up next to a person who emotionally, physically or psychologically abuses them. They wake up unemployed with minimal prospects moving forward…… The story and examples could fill this page, and a hundred like it. Some of the major challenges many of these people face is being brave enough to tell their own story, finding a medium willing to hear it, and most of all, owning the narrative of their own story.
+          </p>
 
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, <a href="#">nascetur ridiculus</a> mus. Donec quam felis, ultricies nec, pellentesque eu, <strong>pretium quis, sem.</strong></p>
-
-          <div class="row">
-            <div class="col-md-4">
-              <ul>
-                <li>Donec quam felis</li>
-                <li>Consectetuer adipiscing</li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <ul>
-                <li>Donec quam felis</li>
-                <li>Consectetuer adipiscing</li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <ul>
-                <li>Donec quam felis</li>
-                <li>Consectetuer adipiscing</li>
-              </ul>
-            </div>
-          </div>
-
-          <p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. <strong>Etiam rhoncus</strong>. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante <a href="#">tincidunt tempus</a>.</p>
-          <br/>
+          
+          <br />
           <div className="article-container">
 
             <h1>Let me hear your thoughts</h1>
