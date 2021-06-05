@@ -75,12 +75,12 @@ export function Details() {
           <div className="article-container">
 
             <h1>Let me hear your thoughts</h1>
-            {console.log(window.location.href)}
+            
             <Disqus.DiscussionEmbed
 
               shortname={disqusShortname}
               config={{
-                url: `${url}/blogs/details`,
+                url: `${url}`,
                 identifier: "",
                 title: "Title of Your Article"
               }}
