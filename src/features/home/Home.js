@@ -60,7 +60,7 @@ function Home() {
               <div class="caption">
                 <span class="post-tag">Blog</span>
                 <h2>
-                  <Link to="/blogs/details" class="post-title">
+                  <Link to={`/blogs/details`} class="post-title">
                     Owning Your Own Narrative
                   </Link>
                 </h2>

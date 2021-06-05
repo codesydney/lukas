@@ -79,7 +79,7 @@ export function Details() {
               shortname={disqusShortname}
               config={{
                 url: `http://localhost:3000/blogs/details`,
-                identifier: "0",
+                identifier: "",
                 title: "Title of Your Article"
               }}
             />
