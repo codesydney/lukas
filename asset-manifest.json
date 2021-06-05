@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/lukas/static/css/main.e6fcf929.chunk.css",
+    "main.js": "/lukas/static/js/main.1a9204bc.chunk.js",
+    "main.js.map": "/lukas/static/js/main.1a9204bc.chunk.js.map",
+    "runtime-main.js": "/lukas/static/js/runtime-main.ac875e62.js",
+    "runtime-main.js.map": "/lukas/static/js/runtime-main.ac875e62.js.map",
+    "static/js/2.ca817b91.chunk.js": "/lukas/static/js/2.ca817b91.chunk.js",
+    "static/js/2.ca817b91.chunk.js.map": "/lukas/static/js/2.ca817b91.chunk.js.map",
+    "static/js/3.596bf536.chunk.js": "/lukas/static/js/3.596bf536.chunk.js",
+    "static/js/3.596bf536.chunk.js.map": "/lukas/static/js/3.596bf536.chunk.js.map",
+    "index.html": "/lukas/index.html",
+    "static/css/main.e6fcf929.chunk.css.map": "/lukas/static/css/main.e6fcf929.chunk.css.map",
+    "static/js/2.ca817b91.chunk.js.LICENSE.txt": "/lukas/static/js/2.ca817b91.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/lukas/static/media/lukas-carey-logo-white-text.86893b23.png",
+    "static/media/lukascarey.5269b509.jpg": "/lukas/static/media/lukascarey.5269b509.jpg",
+    "static/media/prison-hallway.dc588f06.jpg": "/lukas/static/media/prison-hallway.dc588f06.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac875e62.js",
+    "static/js/2.ca817b91.chunk.js",
+    "static/css/main.e6fcf929.chunk.css",
+    "static/js/main.1a9204bc.chunk.js"
+  ]
+}
