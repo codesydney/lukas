@@ -7,7 +7,7 @@ export function Details() {
 
   const disqusShortname = "lukascarey"
   const disqusConfig = {
-    url: `${url}/blogs/details`,
+    url: `${url}`,
     identifier: "0",
     title: "Title of Your Article"
   }
@@ -82,7 +82,7 @@ export function Details() {
               config={{
                 url: `${url}`,
                 identifier: "",
-                title: "Title of Your Article"
+                title: ""
               }}
             />
           </div>
