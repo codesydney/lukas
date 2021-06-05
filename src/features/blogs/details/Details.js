@@ -3,9 +3,11 @@ import Disqus from "disqus-react";
 
 export function Details() {
 
+  const url = window.location.href;
+
   const disqusShortname = "lukascarey"
   const disqusConfig = {
-    url: "http://localhost:3000/blogs/details",
+    url: `${url}/blogs/details`,
     identifier: "0",
     title: "Title of Your Article"
   }
@@ -73,12 +75,12 @@ export function Details() {
           <div className="article-container">
 
             <h1>Let me hear your thoughts</h1>
-
+            {console.log(window.location.href)}
             <Disqus.DiscussionEmbed
 
               shortname={disqusShortname}
               config={{
-                url: `http://localhost:3000/blogs/details`,
+                url: `${url}/blogs/details`,
                 identifier: "",
                 title: "Title of Your Article"
               }}
