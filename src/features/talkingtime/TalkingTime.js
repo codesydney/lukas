@@ -32,18 +32,25 @@ function TalkingTime() {
                                 <h1>Spotify</h1>
                             </div>
                             <div className="content-description" >
+                                { /* Add the code snippet below */ }
+
                                 <div className='shows'>
                                     <iframe src="https://open.spotify.com/embed/episode/0OQnGlAQBMJPNpFu10swPp" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                                 </div>
+
                                 <div className='shows'>
                                     <iframe src="https://open.spotify.com/embed/episode/1JFdwyvaCThhdal10OFqYY" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                                 </div>
+
                                 <div className='shows'>
                                     <iframe src="https://open.spotify.com/embed/episode/2TDcmIvMeOburTMMJv0tkO" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                                 </div>
+                                
                                 <div className='shows'>
                                     <iframe src="https://open.spotify.com/embed/episode/346ALFkWzRZpfKxBeToRE6" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                                 </div>
+
+                                { /* Add the code snippet above */ }
                             </div>
                         </div>
                     </div>
