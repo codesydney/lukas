@@ -8,6 +8,10 @@
   top: 40rem;
 }
 
+h1.slider-caption {
+  text-shadow: 5px 5px 10px #60758c;
+}
+
 [id~='intro-slider'] {
   padding-left: inherit;
   padding-right: inherit;

@@ -23,9 +23,19 @@ function Home() {
               <div className="col-md-7">
 
                 <div className="vertical-center">
-                  <span className="intro-head">Latest posts</span>
+                  <span className="intro-head">Quote</span>
                   <a className="slider-link" href="#">
-                    <h1 className="slider-caption" >My angel face is falling, feathers are falling on my feet</h1>
+                    <h1 className="slider-caption" >
+                      We need to stop
+                      just pulling people
+                      out of the river.
+                    </h1>
+                    <h1 className="slider-caption" >
+                      We need to go upstream and find
+                      out why they're
+                      falling in.
+                    </h1>
+                    <h3>- Desmond Tutu</h3>
                   </a>
                   <a className="prev">
                     <i className="ion ion-chevron-left"></i>
@@ -78,7 +88,7 @@ function Home() {
                 </span>
               </div>
             </section>
-            
+
             <div class="post">
               <img alt="" src="img/photos/tech/unsplash-5.jpg" class="img-responsive" />
             </div>
