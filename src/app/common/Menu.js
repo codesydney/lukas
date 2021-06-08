@@ -73,11 +73,14 @@ export default function FullWidthTabs() {
           onChange={handleChange}
           indicatorColor="primary"
           textColor="primary"
-          variant="fullWidth"
+          variant="scrollable"
+          scrollButtons="auto"
         >
           <Tab label="Education History" {...a11yProps(0)} />
           <Tab label="Research Interest" {...a11yProps(1)} />
           <Tab label="Research" {...a11yProps(2)} />
+          <Tab label="Media Appearance" {...a11yProps(3)} />
+          <Tab label="Conference/Seminar Presentations" {...a11yProps(4)} />
         </Tabs>
       </AppBar>
       <SwipeableViews
@@ -86,53 +89,62 @@ export default function FullWidthTabs() {
         onChangeIndex={handleChangeIndex}
       >
         <TabPanel value={value} index={0} dir={theme.direction}>
-          <ul>
-            <li>
-              <h4>Doctor of Education (EdD)</h4>
-              <span>University of Southern Queensland</span>
-            </li>
+          <ul className="education-history">
 
-            <li>
-              <h4>Masters of Education</h4>
-              <span>University of Sydney</span>
-            </li>
+            <div className="col-md-4">
+              <li>
+                <h5>Doctor of Education (EdD)</h5>
+                <h5>University of Southern Queensland</h5>
+              </li>
 
-            <li>
-              <h4>Bachelor of Education</h4>
-              <span>University of Sydney</span>
-            </li>
+              <li>
+                <h5>Masters of Education</h5>
+                <h5>University of Sydney</h5>
+              </li>
 
-            <li>
-              <h4>Masters of Business/Sports Management</h4>
-              <span>Deakin University</span>
-            </li>
+              <li>
+                <h5>Bachelor of Education</h5>
+                <h5>University of Sydney</h5>
+              </li>
+            </div>
 
-            <li>
-              <h4>Graduate Certificate of Arts</h4>
-              <span>Swinburne University</span>
-            </li>
 
-            <li>
-              <h4>Certificate IV in Training and Assessment</h4>
-              <span>Ballarat Business School</span>
-            </li>
+            <div className="col-md-4">
+              <li>
+                <h5>Masters of Business/Sports Management</h5>
+                <h5>Deakin University</h5>
+              </li>
 
-            <li>
-              <h4>Masters Certificate - Business/Law of Sport</h4>
-              <span>Villanova University</span>
-            </li>
+              <li>
+                <h5>Graduate Certificate of Arts</h5>
+                <h5>Swinburne University</h5>
+              </li>
 
-            <li>
-              <h4>Graduate Certificate - Criminology</h4>
-              <span>Griffith University</span>
-            </li>
+              <li>
+                <h5>Certificate IV in Training and Assessment</h5>
+                <h5>Ballarat Business School</h5>
+              </li>
 
+            </div>
+
+
+            <div className="col-md-4">
+              <li>
+                <h5>Masters Certificate - Business/Law of Sport</h5>
+                <h5>Villanova University</h5>
+              </li>
+
+              <li>
+                <h5>Graduate Certificate - Criminology</h5>
+                <h5>Griffith University</h5>
+              </li>
+
+            </div>
           </ul>
         </TabPanel>
         <TabPanel value={value} index={1} dir={theme.direction}>
 
           <ul className="works">
-            <h2>Areas of Expertise</h2>
             <div className="col-md-4">
               <li><h5>Lived Experience</h5></li>
               <li><h5>Education for the incarcerated</h5></li>
@@ -153,13 +165,10 @@ export default function FullWidthTabs() {
         </TabPanel>
         <TabPanel value={value} index={2} dir={theme.direction}>
           <ul className="research-initiatives">
-            <h2>Research</h2>
             <li>
-              <p>
-                Education while incarcerated - Does it increase employment
-                opportunities after release? – The Lived Experience of
-                previously incarcerated Males in Victoria, Australia.
-              </p>
+              <p>Education while incarcerated - Does it increase employment
+              opportunities after release? – The Lived Experience of
+                previously incarcerated Males in Victoria, Australia.</p>
             </li>
             <li>
               <p>
@@ -215,6 +224,36 @@ export default function FullWidthTabs() {
                 Book.
               </p>
             </li>
+          </ul>
+        </TabPanel>
+
+        <TabPanel value={value} index={3} dir={theme.direction}>
+          <ul className="research-initiatives">
+            <li>School of Hard Knocks – Education during Covid 19</li>
+            <li>Unlocking the future – Podcast series</li>
+            <li>Talking time with Lukas and Alicia – Podcast Series</li>
+            <li>While We Were Away Podcast Series – The University of Michigan</li>
+          </ul>
+        </TabPanel>
+
+        <TabPanel value={value} index={4} dir={theme.direction}>
+          <ul className="seminar">
+            <li>USQ Webinar Series – Ph.D. to Prison, Prison to Ph.D. October 2020</li>
+            <li>CrimCon Annual Conference 2020 – Barriers to setting up Convict Criminology in Australia.</li>
+            <li>Reintegration Puzzle Webinar 2020 - Convict Criminology and the importance of lived experience in education and research</li>
+            <li>Queensland Community Corrections Education Conference 2021</li>
+            <li>Key Note Speaker – ‘Barriers to undertaking education inside – A lived experience perspective’</li>
+            <li>Education Justice Project 2021 – University of Illinois</li>
+            <li>‘Owning your own narrative and returning to work’ (4 presentations)</li>
+            <li>Return to the community roundtable series - Claflin University 2021</li>
+            <li>‘Educational pathways - The way back’.</li>
+            <li>Sustaining Connections Conference – Marymount Manhattan College 2021</li>
+            <li>‘Convict Criminology in Australia, the word ‘Convict’ and the barriers faced’.</li>
+            <li>Guest Lecturer Series – University of Western Australia 2021</li>
+            <li>“Convict Criminology and the importance of Lived experience in research’</li>
+            <li>Guest Lecturer Series – University of New South Wales 2021</li>
+            <li>‘Barriers to education – An insider perspective’</li>
+            <li>Guest Lecturer Series – Murdoch University (WA) 2021 Convict / Lived experience Criminology and its importance in education.</li>
           </ul>
         </TabPanel>
       </SwipeableViews>

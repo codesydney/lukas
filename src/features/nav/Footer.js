@@ -41,7 +41,9 @@ function Footer() {
                   </a>
                 </div>
               </div>
+            </div>
 
+            <div className="row">
               <div className='columns'>
                 <div className="col-sm-6 text-right custom-text-centre">
                   <h6>
@@ -52,8 +54,8 @@ function Footer() {
                   </h6>
                 </div>
               </div>
-
             </div>
+
           </div>
         </div>
       </footer>

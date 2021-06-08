@@ -23,7 +23,7 @@ code {
   font-family: 'Comic Sans';
 }
 
-[class~=mobile] {
+[class~='mobile'] {
   text-align: center;
 }
 
@@ -46,7 +46,6 @@ img#logo {
     text-align: center;
   }
 
-  
   /* Logo */
   .navbar-header {
     height: 7.9vh;
@@ -59,6 +58,15 @@ img#logo {
       1px 1px 5px 5px rgb(0 0 0 / 19%) !important;
     filter: grayscale(0) !important;
     position: relative;
-    margin: 2.50%;
+    margin: 2.5%;
+  }
+
+  /* Footer */
+  footer#footer .container {
+    width: 85vw;
+  }
+
+  footer#footer .col-sm-1 {
+    float: left;
   }
 }

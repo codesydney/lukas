@@ -35,11 +35,20 @@ div#profile {
 }
 
 .PrivateTabIndicator-colorPrimary-3 {
-  background-color: #60758C !important;
+  background-color: #60758c !important;
 }
 
 .works h4 {
   color: white;
+}
+
+/* Menu Font */
+ul.research-initiatives,
+ul.education-history,
+ul.works,
+ul.seminar {
+  padding-left: 15px;
+  font-size: medium;
 }
 
 /* Mobile max-width: 360px */
@@ -88,5 +97,13 @@ div#profile {
   .col-md-4 {
     width: 100%;
     padding: 0;
+  }
+
+  ul.research-initiatives,
+  ul.education-history,
+  ul.works,
+  ul.seminar {
+    padding-left: 15px;
+    
   }
 }
