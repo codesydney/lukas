@@ -9,7 +9,7 @@ function Footer() {
         <div id="links">
           <div className="container">
             <div className="row">
-              <div className='columns'>
+              <div className='columns' id="social-media-icons">
                 <div className="col-sm-1">
                   <a className="brand" href="https://www.facebook.com/Talking-Time-with-Lukas-Alicia-105992888142880" target="_blank">
                     <i className="fa fa-facebook"></i>
@@ -44,7 +44,7 @@ function Footer() {
             </div>
 
             <div className="row">
-              <div className='columns'>
+              <div className='columns' id="code-sydney">
                 <div className="col-sm-6 text-right custom-text-centre">
                   <h6>
                     Handcoded with <FavoriteIcon /> by{" "}
