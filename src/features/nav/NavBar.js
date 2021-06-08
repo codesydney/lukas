@@ -5,6 +5,8 @@ import Contact from '../contact/Contact';
 import About from '../about/About';
 import TalkingTime from '../talkingtime/TalkingTime';
 import { Details as BlogDetails } from '../blogs/details/Details';
+import { BlogOne } from '../blogs/details/BlogOne';
+import { BlogTwo } from '../blogs/details/BlogTwo';
 import { List as BlogList } from '../blogs/list/List';
 import "../../app/css/libre.css";
 
@@ -68,6 +70,8 @@ function NavBar() {
         
         <Route path="/blogs" exact component={BlogList} /> 
         <Route path="/blogs/details" exact component={BlogDetails} /> 
+        <Route path="/blogs/blogOne" exact component={BlogOne} /> 
+        <Route path="/blogs/blogTwo" exact component={BlogTwo} /> 
         <Route path="/contact" exact component={Contact} />
       </Switch>
     </Router>
