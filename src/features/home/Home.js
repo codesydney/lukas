@@ -118,6 +118,34 @@ function Home() {
             </section>
           </div>{/* Card End*/}
 
+          <div className="col-sm-4">{/* Card */}
+            <section className="post">
+              <div className="caption">
+                <span className="post-tag">Blog</span>
+                <h2>
+                  <Link to="/blogs/blogTwo" className="post-title" target="_blank">
+                    Developing Links With Academics From Working Class Backgrounds In Oother Countries
+                  </Link>
+                </h2>
+                <p class="post-description">
+                  So lets not bullshit here – being away for Christmas can suck, especially
+                  if you are locked up. I did it, spending Christmas over 4000km away from
+                  my small kids and wont lie it really hurt inside.  Not seeing them, playing
+                  with them and doing the whole Santa thing stay with me today.
+                  After a brief discussion around the phones in the days before Christmas a
+                  few of us decided we would make it Christmas day the best day it possibly
+                  could be considering where we were and where our families were.
+                </p>
+                <a className="post-share" href="#"><i className="ion ion-android-share-alt"></i></a>
+                <span className="post-date"><i className="ion ion-android-time"></i>
+                  <span className="slant">
+                    8 June 2021
+                  </span>
+                </span>
+              </div>
+            </section>
+          </div>{/* Card End*/}
+
           <div class="col-sm-12 text-center">
             <a class="btn btn-default btn-round-lg btn-lg" href="#">
               Load more
