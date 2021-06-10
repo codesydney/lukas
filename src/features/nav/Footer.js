@@ -16,7 +16,7 @@ function Footer() {
                   </a>
                 </div>
                 <div className="col-sm-1">
-                  <a className="brand" href="https://twitter.com/time_lukas" target="_blank">
+                  <a className="brand" href="https://twitter.com/drlcarey1?lang=en" target="_blank">
                     <i className="fa fa-twitter"></i>
                   </a>
                 </div>
