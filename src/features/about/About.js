@@ -2,9 +2,8 @@ import React from "react";
 import Menu from "../../app/common/Menu";
 import "../../app/css/libre.css";
 import "../../app/css/about.css";
-import lukascarey from "../../app/img/lukascarey.jpg";
+import lukascarey from "../../app/img/lukascarey2021.jpg";
 
-const oldPrisonCell = "url(/img/old-prison-cell.jpg)";
 const barbwire = "url(/img/hedi-benyounes.jpg)";
 
 function About() {
@@ -19,7 +18,7 @@ function About() {
             <div className="content">
               <h1 className='title'>Dr. Lukas Carey</h1>
             </div>
-            <h4>Educator | Trainor | Academic</h4>
+            <h4>Educator | Mentor | Academic</h4>
           </div>
         </div>
       </div>
