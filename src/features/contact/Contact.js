@@ -42,7 +42,7 @@ function Contact() {
                 </div>
                 <div className="content-message">
                   <h4>
-                    For any questions, inquiries or collaboration opportunities
+                    For any questions, enquiries or collaboration opportunities
                     you can reach me thru email or phone.
                   </h4>
                   <h4>

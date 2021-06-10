@@ -79,7 +79,7 @@ export default function FullWidthTabs() {
           <Tab label="Education History" {...a11yProps(0)} />
           <Tab label="Research Interest" {...a11yProps(1)} />
           <Tab label="Research" {...a11yProps(2)} />
-          <Tab label="Media Appearance" {...a11yProps(3)} />
+          <Tab label="Media Appearances" {...a11yProps(3)} />
           <Tab label="Conference/Seminar Presentations" {...a11yProps(4)} />
         </Tabs>
       </AppBar>
@@ -148,7 +148,7 @@ export default function FullWidthTabs() {
             <div className="col-md-4">
               <li><h5>Lived Experience</h5></li>
               <li><h5>Education for the incarcerated</h5></li>
-              <li><h5>Convict Criminology</h5></li>
+              <li><h5>Convict Criminology / Lived Experience Criminology</h5></li>
             </div>
             <div className="col-md-4">
               <li><h5>Education – Marginalised people</h5></li>
