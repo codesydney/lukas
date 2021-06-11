@@ -167,7 +167,7 @@ export default function FullWidthTabs() {
           <ul className="research-initiatives">
             <li>
               <p>Education while incarcerated - Does it increase employment
-              opportunities after release? – The Lived Experience of
+                opportunities after release? – The Lived Experience of
                 previously incarcerated Males in Victoria, Australia.</p>
             </li>
             <li>
@@ -229,10 +229,26 @@ export default function FullWidthTabs() {
 
         <TabPanel value={value} index={3} dir={theme.direction}>
           <ul className="research-initiatives">
-            <li>School of Hard Knocks – Education during Covid 19</li>
-            <li>Unlocking the future – Podcast series</li>
-            <li>Talking time with Lukas and Alicia – Podcast Series</li>
-            <li>While We Were Away Podcast Series – The University of Michigan</li>
+            <li>
+              <a className="media-appearances" href="https://customreport.mediaportal.com/#/articlepresenter/4a16e85d-d8df-4699-b231-9317913b0fd2/607500389/1469245621?_k=tf6van" target="_blank">
+                School of Hard Knocks – Education during Covid 19
+              </a>
+            </li>
+            <li>
+              <a className="media-appearances" href="https://drive.google.com/drive/folders/1-ZdOXdIOyUZUB5yh5oohKix6U4VQEpGX?usp=sharing" target="_blank">
+                Unlocking the future – Podcast series
+              </a>
+            </li>
+            <li>
+              <a className="media-appearances" href="https://open.spotify.com/show/6hbGK85febqdOWl3IXXSem?si=H5H18kC6RtqDZ4xjedd5Rg" target="_blank">
+                Talking time with Lukas and Alicia – Podcast Series
+              </a>
+            </li>
+            <li>
+              <a className="media-appearances" href="https://lsa.umich.edu/pcap/podcast/listen/season-21.html" target="_blank">
+                While We Were Away Podcast Series – The University of Michigan
+              </a>
+            </li>
           </ul>
         </TabPanel>
 
