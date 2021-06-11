@@ -109,6 +109,11 @@ a.media-appearances {
   ul.works,
   ul.seminar {
     padding-left: 15px;
-    
+  }
+
+  div#bio-description {
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
   }
 }
