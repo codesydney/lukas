@@ -26,10 +26,10 @@ function About() {
         <div className="content">
           <div className="row">
             <div className="col-xs-3">
-              <div>
+              <div id='bio-photo'>
                 <img src={lukascarey} id="lukas" />
               </div>
-              <div>
+              <div id='bio-description'>
                 <h5>Lived Experience Academic, Educator, Trainer & Coach.</h5>
               </div>
             </div>
