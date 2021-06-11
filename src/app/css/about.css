@@ -51,6 +51,11 @@ ul.seminar {
   font-size: medium;
 }
 
+a.media-appearances {
+  color: #fff;
+  text-decoration: none;
+}
+
 /* Mobile max-width: 360px */
 @media screen and (max-width: 600px) {
   .content-title > h2 {
@@ -63,7 +68,7 @@ ul.seminar {
 
   img#lukas {
     width: 100% !important;
-    border-radius: 50% !important;
+    border-radius: 25px !important;
     margin-top: 10%;
     padding: 4%;
     margin-left: auto;

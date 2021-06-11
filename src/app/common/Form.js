@@ -82,7 +82,7 @@ function Form({ setConfirmation }) {
             required
             fullWidth
             id="email"
-            placeholder="Email Address"
+            label="Email Address"
             name="email"
             autoComplete="email"
             value={fromEmail}
