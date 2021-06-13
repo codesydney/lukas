@@ -89,13 +89,14 @@ export const List = () => {
                   </Link>
                 </h2>
                 <p class="post-description">
-                  So lets not bullshit here – being away for Christmas can suck, especially
-                  if you are locked up. I did it, spending Christmas over 4000km away from
-                  my small kids and wont lie it really hurt inside.  Not seeing them, playing
-                  with them and doing the whole Santa thing stay with me today.
-                  After a brief discussion around the phones in the days before Christmas a
-                  few of us decided we would make it Christmas day the best day it possibly
-                  could be considering where we were and where our families were.
+                  Working class backgrounds, and those that have battled through them, have similarities. 
+                  Their willingness to fight to survive and fight to be recognised, is second to none. 
+                  More often than not those innate characteristics remain with those individuals and drive 
+                  them to be focussed, compassionate and empathetic academics. Bringing as many academics 
+                  with lived experience in this area from across the globe, will increase the quality and 
+                  authenticity of our work, will allow for greater collaboration and will hopefully pave 
+                  the way for others, from similar backgrounds, to join the rough but rewarding world of 
+                  academia.
                 </p>
                 <a className="post-share" href="#"><i className="ion ion-android-share-alt"></i></a>
                 <span className="post-date"><i className="ion ion-android-time"></i>
