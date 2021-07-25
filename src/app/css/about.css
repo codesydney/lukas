@@ -18,7 +18,9 @@ section#menu {
 
 .col-md-4 {
   width: 33.33333333%;
-  padding: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
 }
 
 div#profile {
@@ -42,6 +44,11 @@ div#profile {
   color: white;
 }
 
+.research-initiatives a, a:hover, a:focus, a:active,
+.seminar a, a:hover, a:focus, a:active {
+  color: white !important;
+}
+
 /* Menu Font */
 ul.research-initiatives,
 ul.education-history,
@@ -49,11 +56,6 @@ ul.works,
 ul.seminar {
   padding-left: 15px;
   font-size: medium;
-}
-
-a.media-appearances {
-  color: #fff;
-  text-decoration: none;
 }
 
 /* Mobile max-width: 360px */
