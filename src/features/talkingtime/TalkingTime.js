@@ -35,6 +35,38 @@ function TalkingTime() {
                                 { /* Add the code snippet below */}
 
                                 <div className='shows'>
+                                    <iframe src="https://open.spotify.com/embed/episode/2XIaMIw1VMLUCNl47R9MpL" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>						
+                                </div>
+                                
+                                <div className='shows'>
+                                    <iframe src="https://open.spotify.com/embed/episode/2jwmHHueXPb5OZh8UVSpTh" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>						
+                                </div>
+                                
+                                <div className='shows'>
+                                    <iframe src="https://open.spotify.com/embed/episode/2ccXNQZDshuU3javBAE7KN" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>																                                
+                                </div>
+                                
+                                <div className='shows'>
+                                    <iframe src="https://open.spotify.com/embed/episode/3Tq68SQb1qv38K377rCMXL" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>		    
+                                </div>
+                                
+                                <div className='shows'>
+                                    <iframe src="https://open.spotify.com/embed/episode/1AlZpa4gU8UnGP1ufY8drP" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>						
+                                </div>
+                                
+                                <div className='shows'>
+                                     <iframe src="https://open.spotify.com/embed/episode/5nhJgaRO8gX3fcmfC0HYwX" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe> 						
+                                </div>
+
+                                <div className='shows'>
+  					                 <iframe src="https://open.spotify.com/embed/episode/2YemBWQl8CPJJ3o6aFXiZL" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>	
+                                </div>
+
+                                <div className='shows'>
+                                     <iframe src="https://open.spotify.com/embed/episode/5qoxdwY4dYBiEgyeI3hyss" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>						
+                                </div>
+
+                                <div className='shows'>
                                     <iframe src="https://open.spotify.com/embed/episode/2EF1HT77VNwgi2v5281c3S" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                                 </div>
 
