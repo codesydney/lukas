@@ -531,7 +531,7 @@ fieldset[disabled] .navbar-libre .btn-link:focus {
 }
 
 .posts .post .post-title {
-  color: #000;
+  color: #000 !important;
   font-size: 24px;
   text-decoration: none;
   width: 100%;

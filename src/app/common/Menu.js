@@ -79,8 +79,9 @@ export default function FullWidthTabs() {
           <Tab label="Education History" {...a11yProps(0)} />
           <Tab label="Research Interest" {...a11yProps(1)} />
           <Tab label="Research" {...a11yProps(2)} />
-          <Tab label="Media Appearances" {...a11yProps(3)} />
-          <Tab label="Conference/Seminar Presentations" {...a11yProps(4)} />
+          <Tab label="Book and Book Chapters" {...a11yProps(3)} />
+          <Tab label="Media Appearances" {...a11yProps(4)} />
+          <Tab label="Conference/Seminar Presentations" {...a11yProps(5)} />
         </Tabs>
       </AppBar>
       <SwipeableViews
@@ -145,7 +146,7 @@ export default function FullWidthTabs() {
           <div className="col-md-4">
             <div><h3>Education</h3></div>
             <ul className="works">
-              <li><h5>Educational opportunities for marginalised populations</h5></li>
+              <li><h5>The role of Lived Experience in Education/Recidivism</h5></li>
               <li><h5>Lived educational experiences of marginalised populations</h5></li>
               <li><h5>Education as a way to break the family incarceration cycle</h5></li>
             </ul>
@@ -154,7 +155,7 @@ export default function FullWidthTabs() {
           <div className="col-md-6">
             <div><h3>Criminology</h3></div>
             <ul className="works">
-              <li><h5>Convict Criminology / Lived experience Criminology</h5></li>
+              <li><h5>Lived experience (Doordook Koorliny) Criminology</h5></li>
               <li><h5>Educational standards of those imprisoned in Australia and beyond</h5></li>
               <li><h5>The importance of Lived Experience in policy making and enforcement</h5></li>
             </ul>
@@ -167,10 +168,11 @@ export default function FullWidthTabs() {
               <li><p>Education while incarcerated - Does it increase employment opportunities after release? – The Lived Experience of previously incarcerated Males in Victoria, Australia.</p></li>
               <li><p>Bronfenbrenner’s Ecological systems theory and the education of currently and previously incarcerated people.</p></li>
               <li><p>Victorian prisoner numbers – A review of the figures from those that are the figures.</p></li>
-              <li><p>Battles, challenges and victories: The lived experiences of the previously incarcerated in the US, UK and Australia.</p></li>
+              <li><p>Battles, challenges and victories: The lived experiences of the previously incarcerated in the US, UK and Australia – (Westminster University / University of Southwest Oklahoma – In Progress)</p></li>
+              <li><p>Black or White – The challenges are real. Exploring the challenges of returning to the community post incarceration – (Columbia University – In Progress)</p></li>
               <li><p>Rethinking prison visitation in a post-pandemic world: The experiences of children with incarcerated parents.</p></li>
-              <li><p>Education Post Incarceration – Opportunities and Challenges – Book Chapter .</p></li>
-              <li><p>The Hard Road travelled – Global Lived Experiences from inside -Book.</p></li>
+              <li><p>Introducing Lived experience (Doordook Koorliny) Criminology – (In Progress)</p></li>
+              <li><p>The education of self managed superannuation funds in Australia – (QUT - In progress)</p></li>
             </ul>
           </div>
           <div>
@@ -178,14 +180,23 @@ export default function FullWidthTabs() {
             <ul className="research-initiatives">
               <li><a href="https://www.educationreview.com.au/2020/05/__trashed-6/" target="_blank">Education while imprisoned during the Covid 19 outbreak – The Forgotten frontier.</a></li>
               <li><a href="https://uottawa.scholarsportal.info/ottawa/index.php/jpp/article/view/4936" target="_blank">Night Time.</a></li>
-              <li><p>Barriers to the development of Convict Criminology – A comparison between Brazil and Australia - 25 years of Convict Criminology (Approved for publication).</p></li>
-              <li><p>Swinging doors… An autoethnographic look at the lived experience challenges faced by previously incarcerated people in USA and Australia. (Approved for publication).</p></li>
-              <li><p>Barriers to the development of Convict Criminology in Australia (Approved for publication).</p></li>
+              <li><p>Developing Southern Networks: Challenges to setting up Convict Criminology in Australia and Brazil (25 years of Convict Criminology Special Journal – American Society of Criminologists) (At Print)</p></li>
+              <li><p>Swinging doors… An autoethnographic look at the lived experience challenges faced by previously incarcerated people in USA and Australia. (At Print)</p></li>
+              <li><p>Barriers to the development of Convict Criminology in Australia (At Print)</p></li>
             </ul>
           </div>
         </TabPanel>
 
         <TabPanel value={value} index={3} dir={theme.direction}>
+          <ul className="research-initiatives">
+            <li><p>Education Post Incarceration – Opportunities and Challenges – Book Chapter (At Press)</p></li>
+            <li><p>Histories and Philosophies of Carceral Education – Book Chapter (At Press)</p></li>
+            <li><p>The Hard Road travelled – Global Lived Experiences from inside – Book Chapter (Submitted)</p></li>
+            <li><p>Alternate Education on the Inside and recidivism – An international perspective  – Book (In work)</p></li>
+          </ul>
+        </TabPanel>
+
+        <TabPanel value={value} index={4} dir={theme.direction}>
           <ul className="research-initiatives">
             <li>
               <a href="https://customreport.mediaportal.com/#/articlepresenter/4a16e85d-d8df-4699-b231-9317913b0fd2/607500389/1469245621?_k=tf6van" target="_blank">
@@ -203,17 +214,40 @@ export default function FullWidthTabs() {
               </a>
             </li>
             <li>
+              Reintegration Puzzle Webinar Series – Facilitator and Host
+            </li>
+            <li>
               <a href="https://lsa.umich.edu/pcap/podcast/listen/season-21.html" target="_blank">
                 While We Were Away Podcast Series – The University of Michigan
               </a>
             </li>
+            <li>
+              <a href="https://open.spotify.com/show/6auOdUmuuQ3qMvmEc8EmvB?si=a40e0ca95c554ce1" target="_blank">
+                The importance of Lived Experience – Podcast Series (MenTalk)
+              </a>
+            </li>
+            <li>
+              <a href="https://open.spotify.com/episode/0LsF00CSyQJ9nCFz45sAxA?si=47994b5e3f8d45d3" target="_blank">
+                Survivors Stories – Podcast Series
+              </a>
+            </li>
+            <li>
+              Education inside – What we need to know – University of Illinois (Airing early 2022)
+            </li>
+            <li>
+              Trauma in Australian Prisons – ABC Television (Australia) (Airing early 2022)
+            </li>
+            <li>
+              Education and recidivism – The obvious link – TED Talk (Proposed February 2022)
+            </li>
           </ul>
         </TabPanel>
 
-        <TabPanel value={value} index={4} dir={theme.direction}>
+        <TabPanel value={value} index={5} dir={theme.direction}>
           <ul className="seminar">
             <li><a href="https://www.youtube.com/watch?v=s_8NCMBo1ZM" target="_blank">USQ Webinar Series – Ph.D. to Prison, Prison to Ph.D. October 2020</a></li>
             <li><a href="https://www.youtube.com/channel/UC-xWkwIVDTCu9Txv2iz4eOw/videos" target="_blank">CrimCon Annual Conference 2020 – Barriers to setting up Convict Criminology in Australia.</a></li>
+            <li><a href="https://www.youtube.com/channel/UC-xWkwIVDTCu9Txv2iz4eOw/videos" target="_blank">CrimCon Annual Conference 2020 - An autoethnographic look at the challenges faced by previously incarcerated people in the USA and Australia</a></li>
             <li><a href="https://vimeo.com/482895374" target="_blank">Reintegration Puzzle Webinar 2020 - Convict Criminology and the importance of lived experience in education and research</a></li>
             <li>Queensland Community Corrections Education Conference 2021 Key Note Speaker – ‘Barriers to undertaking education inside – A lived experience perspective’ </li>
             <li>Education Justice Project 2021 – University of Illinois ‘Owning your own narrative and returning to work’ (4 presentations)</li>
@@ -222,7 +256,9 @@ export default function FullWidthTabs() {
             <li>Guest Lecturer Series – University of Western Australia 2021</li>
             <li>“Convict Criminology and the importance of Lived experience in research’</li>
             <li>Guest Lecturer Series – University of New South Wales 2021 ‘Barriers to education – An insider perspective’</li>
-            <li>Guest Lecturer Series – Murdoch University (WA) 2021 Convict / Lived experience Criminology and its importance in education.</li>
+            <li>Guest Lecturer Series – Murdoch University 2021 ‘The importance of lived experience in education and research’.</li>
+            <li>Criminology Consortium Conference 2021 - ‘Introducing Lived experience (Doordook Koorliny) Criminology’.</li>
+            <li>International Correctional Education and Training Conference 2021 (ACEA) - ‘Introducing Lived experience (Doordook Koorliny) Criminology’.</li>
           </ul>
         </TabPanel>
       </SwipeableViews>

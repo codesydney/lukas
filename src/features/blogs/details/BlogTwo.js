@@ -15,7 +15,7 @@ export function BlogTwo() {
           <div class="container">
             <div class="content">
               <span class="post-tag">Blog</span>
-              <h1>Developing Links With Academics From Working Class Backgrounds In Oother Countries</h1>
+              <h1>Developing Links With Academics From Working Class Backgrounds In Other Countries</h1>
               <span class="post-date slant">9 June 2021</span>
             </div>
           </div>
@@ -24,7 +24,7 @@ export function BlogTwo() {
       <div class="single post container">
 
         <div class="content">
-          <h2>Owning Your Own Narrative</h2>
+          
           <p>
             Working class backgrounds, and those that have battled through them, have similarities.
             Their willingness to fight to survive and fight to be recognised, is second to none.
@@ -50,7 +50,7 @@ export function BlogTwo() {
 
           <div class="row">
             <div class="col-md-7">
-              <h3>Lived Experience</h3>
+              <h3>The Story of Lived Experience</h3>
               <p>
                 This is not a unique type of story and is one that a large number of the people in our
                 group probably share in some way or another. We faced the same challenges, faced the same
