@@ -178,8 +178,9 @@ export default function FullWidthTabs() {
           <div>
             <div><h3>Published Research</h3></div>
             <ul className="research-initiatives">
-              <li><a href="https://www.educationreview.com.au/2020/05/__trashed-6/" target="_blank">Education while imprisoned during the Covid 19 outbreak – The Forgotten frontier.</a></li>
-              <li><a href="https://uottawa.scholarsportal.info/ottawa/index.php/jpp/article/view/4936" target="_blank">Night Time.</a></li>
+              <li><p><a href="https://uottawa.scholarsportal.info/ottawa/index.php/jpp/article/view/6222" target="_blank">Swinging Doors: An Autoethnographic Look at the Challenges Faced by Previously Incarcerated People in the USA and Australia</a></p></li>
+              <li><p><a href="https://www.educationreview.com.au/2020/05/__trashed-6/" target="_blank">Education while imprisoned during the Covid 19 outbreak – The Forgotten frontier.</a></p></li>
+              <li><p><a href="https://uottawa.scholarsportal.info/ottawa/index.php/jpp/article/view/4936" target="_blank">Night Time.</a></p></li>
               <li><p>Developing Southern Networks: Challenges to setting up Convict Criminology in Australia and Brazil (25 years of Convict Criminology Special Journal – American Society of Criminologists) (At Print)</p></li>
               <li><p>Swinging doors… An autoethnographic look at the lived experience challenges faced by previously incarcerated people in USA and Australia. (At Print)</p></li>
               <li><p>Barriers to the development of Convict Criminology in Australia (At Print)</p></li>
